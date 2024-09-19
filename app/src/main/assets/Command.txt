@@ -1,0 +1,1 @@
+export HOME=/data/data/cz.jh.siamquantum/files ; cd $HOME ; sq Input-siamquantum.xyz Basis-siamquantum.txt -HF -OPT > Output-siamquantum.txt ; cat Output-siamquantum.txt

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_MEDIA_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/icon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity android:name="cz.jh.siamquantum.SiamquantumWork" />
+        <activity android:name="cz.jh.siamquantum.SiamquantumCommand" />
+        <activity android:name="cz.jh.siamquantum.SiamquantumBasis" />
+        <activity android:name="cz.jh.siamquantum.ManualOpenbabel" />
+        <activity android:name="cz.jh.siamquantum.ManualX11Basic" />
+        <activity android:name="cz.jh.siamquantum.ManualSiamquantum" />
+        <activity android:name="cz.jh.siamquantum.Licenses" />
+        <activity android:name="cz.jh.siamquantum.Graph" />
+        <activity android:name="cz.jh.siamquantum.PrivacyPolicy" />
+        <activity android:name="cz.jh.siamquantum.ShellTools" />
+        <activity android:name="cz.jh.siamquantum.ChangeSize" />
+        <activity android:name="cz.jh.siamquantum.Canvas3d_main" />
+        <activity android:name="cz.jh.siamquantum.Canvas3d_CanvasView"
+            tools:ignore="Instantiatable" />
+        <activity android:name="cz.jh.siamquantum.Canvas3d_ColorTest" />
+        <activity android:name="cz.jh.siamquantum.Canvas3d_PerTable" />
+        <activity android:name="cz.jh.siamquantum.Canvas3d_Preferences" />
+    </application>
+
+</manifest>
