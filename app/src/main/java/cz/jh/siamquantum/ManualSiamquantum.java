@@ -31,6 +31,7 @@ public class ManualSiamquantum extends MainActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        getSupportActionBar().hide();
         setContentView(R.layout.manualsiamquantum);
 
         PdfView pdfView = findViewById(R.id.pdfView);
