@@ -163,7 +163,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:backgroundTint="#BF5695"
-            android:text="VIEW/EDIT INPUT-Siamquantum.XYZ IN CANVAS3D (SLOW)" />
+            android:text="VIEW/EDIT INPUT-SIAMQUANTUM.XYZ" />
 
         <Button
             android:id="@+id/RunProgram"
@@ -214,7 +214,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:backgroundTint="#BF5695"
-            android:text="VIEW/EDIT OUTPUT-Siamquantum.XYZ IN CANVAS3D (SLOW)" />
+            android:text="VIEW/EDIT OUTPUT-SIAMQUANTUM.XYZ" />
 
         <Button
             android:id="@+id/start_shelltools"

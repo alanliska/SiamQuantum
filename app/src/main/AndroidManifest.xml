@@ -38,12 +38,11 @@
         <activity android:name="cz.jh.siamquantum.PrivacyPolicy" />
         <activity android:name="cz.jh.siamquantum.ShellTools" />
         <activity android:name="cz.jh.siamquantum.ChangeSize" />
-        <activity android:name="cz.jh.siamquantum.Canvas3d_main" />
-        <activity android:name="cz.jh.siamquantum.Canvas3d_CanvasView"
-            tools:ignore="Instantiatable" />
-        <activity android:name="cz.jh.siamquantum.Canvas3d_ColorTest" />
-        <activity android:name="cz.jh.siamquantum.Canvas3d_PerTable" />
-        <activity android:name="cz.jh.siamquantum.Canvas3d_Preferences" />
+        <activity android:name="cz.jh.siamquantum.MolCanvas_main" />
+        <activity android:name="cz.jh.siamquantum.MolCanvas_colorPicker" />
+        <activity android:name="cz.jh.siamquantum.MolCanvas_periodicTable" />
+        <activity android:name="cz.jh.siamquantum.MolCanvas_settings" />
+        <activity android:name="cz.jh.siamquantum.MolCanvas_preferences" />
     </application>
 
 </manifest>
