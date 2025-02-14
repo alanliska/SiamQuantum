@@ -2067,7 +2067,7 @@ public class MainActivity extends AppCompatActivity {
     public void alertAbout() {
 
         new AlertDialog.Builder(MainActivity.this)
-                .setTitle("About the siamquantum app")
+                .setTitle("About the SiamQuantum app")
                 .setMessage(exec("cat "+getFilesDir()+"/About.txt"))
                 .setPositiveButton("OK", new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int id) {
